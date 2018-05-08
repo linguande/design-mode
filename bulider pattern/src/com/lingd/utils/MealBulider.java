@@ -6,7 +6,7 @@ import com.lingd.servcie.impl.Pepsi;
 import com.lingd.servcie.impl.VegBurger;
 
 /**
- * @description: mealbulider1
+ * @description: mealbulider
  * @author: linguande
  * @create: 2018-05-08 16:14
  **/
