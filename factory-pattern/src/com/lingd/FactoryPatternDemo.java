@@ -23,7 +23,5 @@ public class FactoryPatternDemo {
         Shape circle = ShapeFactory.getInstance("Circle");
 
         circle.draw();
-
-        System.out.println();
     }
 }
