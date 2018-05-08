@@ -4,7 +4,7 @@ import com.lingd.factory.ShapeFactory;
 import com.lingd.service.Shape;
 
 /**
- * @description: demo1
+ * @description: demo
  * @author: linguande
  * @create: 2018-05-04 16:26
  **/
