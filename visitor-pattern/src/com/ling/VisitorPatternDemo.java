@@ -7,7 +7,7 @@ import com.ling.service.impl.ComputerPartDisplayVisitor;
 /**
  * @description: visitor pattern demo
  * @author: linguande
- * @create: 2018-05-23 18:07
+ * @create: 2018-05-23 18:08
  **/
 public class VisitorPatternDemo {
     public static void main(String[] args) {
