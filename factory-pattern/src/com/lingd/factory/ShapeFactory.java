@@ -30,7 +30,7 @@ public class ShapeFactory {
         }*/
         //上面写法每增加一个分支都需要更改工厂类，可用反射来解决，如下
         try {
-            shape = (Shape) Class.forName("com.lingd.service.impl."+type).newInstance();
+            shape = (Shape) Class.forName("com.lingd.service.impl." + type).newInstance();
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

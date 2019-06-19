@@ -9,11 +9,11 @@ import com.ling.service.Shape;
  **/
 public class RedShapeDecorator extends ShapeDecorator {
 
-    public RedShapeDecorator(){
+    public RedShapeDecorator() {
 
     }
 
-    public RedShapeDecorator(Shape shape){
+    public RedShapeDecorator(Shape shape) {
         super(shape);
     }
 
@@ -23,7 +23,7 @@ public class RedShapeDecorator extends ShapeDecorator {
         setRedBorder(shape);
     }
 
-    private void setRedBorder(Shape shape){
+    private void setRedBorder(Shape shape) {
         System.out.println("Border Color : Red");
     }
 }

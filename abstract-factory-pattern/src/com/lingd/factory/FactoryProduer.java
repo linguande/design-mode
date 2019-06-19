@@ -7,11 +7,11 @@ package com.lingd.factory;
  **/
 public class FactoryProduer {
 
-    public static AbstractFactory getFactory(String type){
-        if("SHAPE".equalsIgnoreCase(type)){
+    public static AbstractFactory getFactory(String type) {
+        if ("SHAPE".equalsIgnoreCase(type)) {
             return new ShapeFactory();
         }
-        if ("COLOR".equalsIgnoreCase(type)){
+        if ("COLOR".equalsIgnoreCase(type)) {
             return new ColorFactory();
         }
         return null;

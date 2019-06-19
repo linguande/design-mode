@@ -11,7 +11,7 @@ public class Rectangle extends Shape {
         System.out.println("Inside Rectangle : method draw()");
     }
 
-    public Rectangle(){
+    public Rectangle() {
         type = "Rectangle";
     }
 }

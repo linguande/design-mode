@@ -11,7 +11,7 @@ public class Context {
 
     private State state;
 
-    public Context(){
+    public Context() {
         this.state = null;
     }
 

@@ -11,7 +11,7 @@ public class Circle extends Shape {
         System.out.println("Inside Circle : method draw()");
     }
 
-    public Circle(){
-        type ="Circle";
+    public Circle() {
+        type = "Circle";
     }
 }

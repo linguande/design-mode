@@ -5,8 +5,10 @@ package com.ling.entity;
  * @author: linguande
  * @create: 2018-05-23 16:39
  **/
-public abstract  class AbstractCustomer {
+public abstract class AbstractCustomer {
     protected String name;
+
     public abstract boolean isNil();
+
     public abstract String getName();
 }

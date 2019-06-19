@@ -38,6 +38,7 @@ public class AbstractFactoryPatternDemo {
 
         color2.fill();
 
+
         Color color3 = colorFactory.getColor("Bule");
 
         color3.fill();

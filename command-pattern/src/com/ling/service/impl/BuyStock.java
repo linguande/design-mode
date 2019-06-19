@@ -12,11 +12,11 @@ public class BuyStock implements Order {
 
     private Stock stock;
 
-    public BuyStock(Stock stock){
+    public BuyStock(Stock stock) {
         this.stock = stock;
     }
 
-    public BuyStock(){
+    public BuyStock() {
 
     }
 

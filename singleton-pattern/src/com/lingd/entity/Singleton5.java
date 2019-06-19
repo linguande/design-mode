@@ -1,4 +1,5 @@
 package com.lingd.entity;
+
 /**
  * @Auther: linguande
  * @Date: 2018/5/7 15:33
@@ -7,7 +8,7 @@ package com.lingd.entity;
 public enum Singleton5 {
     INSTANCE;
 
-    Singleton5(){
+    Singleton5() {
 
     }
 

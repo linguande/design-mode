@@ -7,10 +7,12 @@ package com.ling.entity;
  **/
 public abstract class Game {
     abstract void initalize();
+
     abstract void startPlay();
+
     abstract void endPlay();
 
-    public final void play(){
+    public final void play() {
         initalize();
         startPlay();
         endPlay();

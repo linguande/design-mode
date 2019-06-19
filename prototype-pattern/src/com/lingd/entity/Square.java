@@ -11,7 +11,7 @@ public class Square extends Shape {
         System.out.println("Inside Squre : method draw()");
     }
 
-    public Square(){
+    public Square() {
         type = "Square";
     }
 }

@@ -11,12 +11,12 @@ import com.lingd.service.Shape;
 public class ColorFactory extends AbstractFactory {
     @Override
     public Color getColor(String color) {
-        if(color == null || "".equals(color)){
+        if (color == null || "".equals(color)) {
             return null;
         }
         Color co = null;
         try {
-            co = (Color) Class.forName("com.lingd.service.impl."+color).newInstance();
+            co = (Color) Class.forName("com.lingd.service.impl." + color).newInstance();
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

@@ -11,11 +11,11 @@ public abstract class Shape {
 
     protected DrawAPI drawAPI;
 
-    protected Shape(){
+    protected Shape() {
 
     }
 
-    protected Shape(DrawAPI drawAPI){
+    protected Shape(DrawAPI drawAPI) {
         this.drawAPI = drawAPI;
     }
 
