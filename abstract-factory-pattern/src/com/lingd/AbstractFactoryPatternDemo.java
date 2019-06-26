@@ -24,6 +24,11 @@ public class AbstractFactoryPatternDemo {
 
         shape2.draw();
 
+
+
+
+
+
         Shape shape3 = shapeFactory.getShape("Circle");
 
         shape3.draw();
